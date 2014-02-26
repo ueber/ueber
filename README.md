@@ -1,8 +1,8 @@
 über
 =====
 
-Cheep opensource simultaneous translating system. 
-Interpreting using a computer that streams audio to smart-devices.
+Low cost and opensource simultaneous translating system.
+Interpreting using a computer that streams audio to smart devices.
 
 
 #### Costs / Abstract
@@ -11,9 +11,12 @@ In the solution presentend here, 4 miks connected to 4 old laptops (live-linux b
 
 
 #### Features and Ideas
-* Gui for interpretors
- * Mute, mic-level, target-language-selection, (later: online translation interface)
+* GUI for interpretors
+ * Mute, mic-level, target-language-selection, status, (later: online translation interface)
 * Dynamic range compression, audio-compression (opus), multicast
-* Smartphoneapp (we'll start with android...)
+* Smartphone-app GUI (we'll start with android...)
  * Stream descovery / choose language
- * Audio-level
+ * Audio output-level
+
+#### Backend
+not clear jet. VLC, gstreamer, ...
